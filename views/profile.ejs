@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Profile</h1>
+    <form action="/profile" method="POST">
+        <input type="text" name="username" value="<%= user.username %>" required>
+        <button type="submit">Update</button>
+    </form>
+    <a href="/logout">Logout</a>
+</body>
+</html>
